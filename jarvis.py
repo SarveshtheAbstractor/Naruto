@@ -91,17 +91,17 @@ if __name__ == "__main__":
         elif 'open code' in query:
             codePath = "C:\\Users\\Sarvesh Hiwase\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
             os.startfile(codePath)
-        #elif 'email to mayur' in query:
+        #elif 'email to receiver' in query:
            # try:
                # speak("What Should I say?")
                 #content = takeCommand()
-                #to = "hiwasesarvesh@yahoo.com"
+                #to = "Receivers Email"
                 #sendEmail(to,content)
                 #speak("Email Has been Sent")
 
            # except Exception as e:
                 #print(e)
-                #speak("Sorry Sarvesh I cannot Send this Email due to some Reasons")
+                #speak("Sorry friend I cannot Send this Email due to some Reasons")
                 
             
             
