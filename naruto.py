@@ -63,18 +63,18 @@ if __name__ == "__main__":
         elif 'open youtube' in query:
             webbrowser.register('firefox',
                                 None,
-                                webbrowser.BackgroundBrowser("C://Program Files//Mozilla Firefox//firefox.exe"))
+                                webbrowser.BackgroundBrowser("C://Program Files//Mozilla Firefox//firefox.exe")) #path should be the user's where the browser is located.
             webbrowser.get('firefox').open('youtube.com')
 
         elif 'open google' in query:
             webbrowser.register('firefox',
                                 None,
-                                webbrowser.BackgroundBrowser("C://Program Files//Mozilla Firefox//firefox.exe"))
+                                webbrowser.BackgroundBrowser("C://Program Files//Mozilla Firefox//firefox.exe")) #path should be the user's where the browser is located.
             webbrowser.get('firefox').open('google.com')
         elif 'open stackoverflow' in query:
             webbrowser.register('firefox',
                                 None,
-                                webbrowser.BackgroundBrowser("C://Program Files//Mozilla Firefox//firefox.exe"))
+                                webbrowser.BackgroundBrowser("C://Program Files//Mozilla Firefox//firefox.exe")) #path should be the user's where the browser is located.
             webbrowser.get('firefox').open('stackoverflow.com')
         elif 'play music' in query:
             music_dir =    'D:\\MUSIC\\Jarvis' 
@@ -89,7 +89,7 @@ if __name__ == "__main__":
 
 
         elif 'open code' in query:
-            codePath = "C:\\Users\\Sarvesh Hiwase\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            codePath = "C:\\Users\\{Your PC Username}\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe" #path should be the user's where the VScode is located.
             os.startfile(codePath)
         #elif 'email to receiver' in query:
            # try:
