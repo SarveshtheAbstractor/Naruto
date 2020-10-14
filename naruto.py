@@ -77,7 +77,7 @@ if __name__ == "__main__":
                                 webbrowser.BackgroundBrowser("C://Program Files//Mozilla Firefox//firefox.exe")) #path should be the user's where the browser is located.
             webbrowser.get('firefox').open('stackoverflow.com')
         elif 'play music' in query:
-            music_dir =    'D:\\MUSIC\\Jarvis' 
+            music_dir =    'D:\\MUSIC\\Jarvis'  #path should be the user's where the music is located.
             songs = os.listdir(music_dir)
             n = random.randint(0,len(songs)-1)
             print(songs)
